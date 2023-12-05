@@ -18,14 +18,14 @@ const invoicesSlice = createSlice({
         state[index] = action.payload.updatedInvoice;
       }
     },
+    updateBulkInvoice: (state, action) => {
+      return action.payload;
+    },
   },
 });
 
-export const {
-  addInvoice,
-  deleteInvoice,
-  updateInvoice,
-} = invoicesSlice.actions;
+export const { addInvoice, deleteInvoice, updateInvoice, updateBulkInvoice } =
+  invoicesSlice.actions;
 
 export const selectInvoiceList = (state) => state.invoices;
 
