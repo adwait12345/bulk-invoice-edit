@@ -2,9 +2,7 @@
 
 ## Getting Started
 
-* [How to run locally](#run-local)
-* [Edit bulk feature details](#bulk-edit)
-* [Demo](#demo)
+
 
   <a name="run-local"/>
 
@@ -30,11 +28,24 @@ The application should now be running locally, and you can access it in your web
 
 ### How to Use
 
+![Home](https://github.com/adwait12345/bulk-invoice-edit/blob/master/public/home.png?raw=true)
+
+![Create Invoices](https://github.com/adwait12345/bulk-invoice-edit/blob/master/public/invoices.png?raw=true)
+
+![Bulk Edit](https://github.com/adwait12345/bulk-invoice-edit/blob/master/public/bulk.png?raw=true)
+
 
 
 
 
 <a name="demo"/>
+
+## Features
+* User can simultanously edit multiple parameters.
+* Auto Email, Date, Number Validation in Sheet.
+* User cannot leave datafield empty without valid Email, Data, Numbers.
+
+
 
 ## Demo
 
