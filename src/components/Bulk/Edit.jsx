@@ -236,6 +236,7 @@ export default function Edit() {
           enableRangeSelection
           stickyLeftColumns={1}
           highlights={highlight}
+          
         />
       </div>
     </div>
